@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const socialLinks = {
         linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7266307755978731520/",
         github: "https://github.com/LovelyBharti",
-        insta: "https://github.com/LovelyBharti", // Update with Instagram Link
+        insta: "https://www.instagram.com/LovelyBharti", // Update with your Instagram Link
         snap: "https://www.snapchat.com/"
     };
 
@@ -64,8 +64,23 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
+
+    // Handle "View" Buttons for Projects
+    const projectLinks = {
+        Paasword: "https://lovelybharti.github.io/Random-Password-Generator/", 
+        Task: "https://lovelybharti.github.io/Task-Manager-Application/", 
+        Weather: "https://lovelybharti.github.io/Weather-Checking-Application/", 
+        Quiz: "https://lovelybharti.github.io/Quiz-Applicatiion/" 
+    };
+
+    Object.keys(projectLinks).forEach(id => {
+        const button = document.getElementById(id);
+        button.onclick = function() {
+            window.open(projectLinks[id], "_blank", "noopener noreferrer");
+        };
+    });
+
 });
 
 // Smooth Scrolling (CSS)
 document.documentElement.style.scrollBehavior = "smooth";
-
