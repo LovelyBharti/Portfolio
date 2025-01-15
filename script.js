@@ -24,9 +24,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Social Media Links - Open in New Tab
     const socialLinks = {
-        linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7266307755978731520/",
+        linkedin: "https://www.linkedin.com/in/lovely-bharti-89323a30a",
         github: "https://github.com/LovelyBharti",
-        insta: "https://www.instagram.com/LovelyBharti", // Update with your Instagram Link
+        insta: "https://www.instagram.com/", 
         snap: "https://www.snapchat.com/"
     };
 
