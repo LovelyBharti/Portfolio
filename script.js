@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Handle "View" Buttons for Projects
     const projectLinks = {
-        Paasword: "https://lovelybharti.github.io/Random-Password-Generator/", 
+        Movie: "https://lovelybharti.github.io/Movie-Hub/\", 
         Task: "https://lovelybharti.github.io/Task-Manager-Application/", 
         Weather: "https://lovelybharti.github.io/Weather-Checking-Application/", 
         Quiz: "https://lovelybharti.github.io/Quiz-Applicatiion/" 
