@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("✅ DOM Loaded Successfully");
+    console.log(" DOM Loaded Successfully");
 
     // Menu Toggle for Mobile View
     let menu = document.querySelector("#menu-icon");
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const anchor = document.getElementById(id);
         if (anchor) {
             anchor.onclick = function() {
-                console.log(`🔗 Opening ${id}`);
+                console.log(` Opening ${id}`);
                 window.open(socialLinks[id], "_blank", "noopener noreferrer");
             };
         } else {
@@ -87,15 +87,15 @@ document.addEventListener("DOMContentLoaded", function() {
     // Buttons for Projects
     const projectLinks = {
         Movie: "https://lovelybharti.github.io/Movie-Hub/",
-        Smart Notes App : "https://lovelybharti.github.io/Note-Tracking-App/",
-        Weather: "https://lovelybharti.github.io/Weather-Checking-Application/",
+        Notes: "https://lovelybharti.github.io/Note-Tracking-App/",
+        Weather:"https://lovelybharti.github.io/Weather-Checking-Application/",
         Quiz: "https://lovelybharti.github.io/Quiz-Applicatiion/"
     };
 
     Object.keys(projectLinks).forEach(id => {
         const button = document.getElementById(id);
         if (button) {
-            console.log(`✅ Project button found: ${id}`);
+            console.log(` Project button found: ${id}`);
             button.onclick = function() {
                 console.log(` Opening project: ${projectLinks[id]}`);
                 window.open(projectLinks[id], "_blank", "noopener noreferrer");
