@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Typed.js Effect for Introduction
     if (document.querySelector(".more-text")) {
         new Typed(".more-text", {
-            strings: ["Frontend Developer", "Web Developer", "Responsive Web Designer"],
+            strings: ["React Developer", "Front-End Developer"],
             typeSpeed: 80,
             backSpeed: 80,
             backDelay: 1200,
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var cvButton = document.getElementById("btn");
     if (cvButton) {
         cvButton.onclick = function() {
-            console.log("📄 Downloading CV");
+            console.log(" Downloading CV");
             window.open("updatedresum.pdf", "_blank", "noopener noreferrer");
         };
     } else {
